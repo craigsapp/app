@@ -122,7 +122,7 @@ Automator
 Bluetooth File Exchange
 Boot Camp Assistant
 ...
-<pre>
+</pre>
 
 The <tt>-f</tt> option causes the full pathname of the applications to
 be shown in the listing.  The list is then sorted alphabetically including
@@ -141,7 +141,7 @@ app -f
 /Applications/Dashboard.app
 /Applications/Dictionary.app
 ...
-<pre>
+</pre>
 
 The <tt>-p</tt> option can be used to list the applications in paragraph
 format.  This is useful for viewing larger numbers of applications in a
