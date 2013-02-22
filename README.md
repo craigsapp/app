@@ -148,7 +148,7 @@ format.  This is useful for viewing larger numbers of applications in a
 single window.  Spaces in the application name are converted to underscores
 so that the start/stop of the application name is clear.
 
-<pre> 
+<pre>
 app -p
 
 Activity_Monitor Adobe_Flash_Player_Install_Manager AirPort_Utility
@@ -191,7 +191,7 @@ TextEdit
 To only search for matches at the start of a string prefix search with 
 "<tt>^</tt>" (or "<tt>$</tt>" for the end of a string).
 
-<pre> 
+<pre>
 app -w ^te
 
 Terminal
