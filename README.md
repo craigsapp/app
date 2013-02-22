@@ -1,5 +1,5 @@
 
-The [app] program is a PERL script which lists and runs OS X Applications 
+The [app](app) program is a PERL script which lists and runs OS X Applications 
 from the 
 [command line](http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line).  
 The standard method of opening an application from 
@@ -9,10 +9,10 @@ TextEdit.app you type this command:
 <pre>
    open /Applications/TextEdit.app
 </pre>
-The [app] program is a front-end to the open command which automatically
+The [app](app) program is a front-end to the open command which automatically
 searches for an application and finds the first match if an incomplete
 portion of an application name is found (case insensitive).  Here is an 
-equivalent command for opening TextEdit.app with the [app] program:
+equivalent command for opening TextEdit.app with the [app](app) program:
 <pre>
    app text
 </pre>
@@ -31,7 +31,7 @@ directory in that list:
 sudo cp app /usr/local/bin
 </pre>
 
-To verify that the [app] program is installed correctly type "which app"
+To verify that the [app](app) program is installed correctly type "which app"
 which should replay with the location that to which copied the program:
 <pre>
 which app
@@ -85,7 +85,7 @@ the string "<tt>./</tt> to the command name:
 
 ## Main argument
 
-When given only a single argument without options, the [app] command will
+When given only a single argument without options, the [app](app) command will
 search for the first application which contains that string.  For example
 typing the command:
 <pre>
@@ -168,7 +168,7 @@ iMovie iPhoto iTunes
 
 ## List all applications matching a search pattern
 
-By default the [app] command will open the first application that matches
+By default the [app](app) command will open the first application that matches
 to the argument.  The <tt>-w</tt option can be used to list all matches
 to locate a secondary match.  The following example list all applications
 which contain the string "te" (or "Te", "TE", "tE" since the case of the
@@ -200,7 +200,7 @@ TextEdit
 
 ## Deep searching
 
-A variable at the top of the [app] program called <tt>@searchdirs</tt> 
+A variable at the top of the [app](app) program called <tt>@searchdirs</tt> 
 contains a list of directories to search for applications.  The main
 locations for applications in OS X is <tt>/Applications</tt> and
 <tt>/Applications/Utilities</tt>.  The <tt>-d</tt> option can be used
