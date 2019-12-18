@@ -11,11 +11,11 @@
 #    app -- List and run OS X Applications from the command-line.
 #
 #    OPTIONS
-#	-f        == display full pathes of Applications.
-#	-l        == list all Applications which are available
-#	-w regexp == list all Applications which string matches to.
-#	-p        == display list in paragraph form.
-#       -d        == deep search for apps
+#      -f        == display full pathes of Applications.
+#      -l        == list all Applications which are available
+#      -w regexp == list all Applications which string matches to.
+#      -p        == display list in paragraph form.
+#      -d        == deep search for apps
 #
 # EXAMPLES:
 #    app
@@ -43,8 +43,8 @@ use strict;
 my @searchdirs = (
    "/Applications", 
    "/Applications/Utilities", 
-   "/Applications/eclipse",
-   "/Users/craig/DOS\ Games"
+   "/System/Applications", 
+   "/System/Applications/Utilities"
 );
 
 ##############################
