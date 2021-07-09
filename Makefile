@@ -3,5 +3,5 @@
 all: install
 
 install:
-	cp -i app /usr/local/bin/app
+	sudo cp -i app /usr/local/bin/app
 
